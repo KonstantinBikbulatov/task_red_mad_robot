@@ -1,0 +1,27 @@
+table{
+  border-collapse: collapse;
+}
+table td{
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table__td-first{
+  width: 100px;
+}
+
+.table__td {
+  width: 40px;
+}
+
+.input__search{
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+}
